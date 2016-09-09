@@ -1,0 +1,65 @@
+* {
+  font-family: Helvetica;
+  text-align:center;
+  font-size:1em;
+  font-weight: 100;
+}
+#selectGreen {
+  background-color:#248f24;
+}
+#selectRed {
+  background-color:maroon;
+}
+#selectGray {
+  background-color:#1a1a1a;
+}
+#cheats {
+  text-align:center;
+  color:black;
+  height:calc(1em - 2px);
+  width:calc(1em - 2px);
+  display:inline-block;
+  padding:2em;
+  margin:2em;
+  background-color:#ddd;
+  border:4px double white;
+}
+.selector {
+  color:yellow;
+  border:4px solid white;
+  height:1em;
+  width:1em;
+  display:inline-block;
+  padding:2em;
+  margin:2em;
+}
+th {
+  border:1px solid #f2f2f2;
+  padding:1.5em;
+  width:1em;
+  color: white;
+  background-color: #DEB8A0;
+  background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.0));
+  border-radius:2px;
+}
+td {
+  border:1px solid #f2f2f2;
+}
+/*p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}*/
+.empty {
+  color:black;
+  background-color:white;
+  padding:.1em;
+}
+.invisible {
+  color:white;
+  background-color:white;
+}
+td:hover {
+  border:1px solid gray;
+}
